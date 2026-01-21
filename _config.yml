@@ -2,6 +2,7 @@
 title: Pritthijit Nath
 title-bengali: পৃথ্বীজিৎ নাথ
 bio: PhD Researcher in AI + Weather & Climate
+description: PhD Researcher in AI + Weather & Climate at University of Cambridge
 
 # twitter summary info
 # description: A blog about technology and stuff related
@@ -10,6 +11,7 @@ bio: PhD Researcher in AI + Weather & Climate
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
+logo: assets/images/cambridge-crest.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
