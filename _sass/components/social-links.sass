@@ -3,10 +3,14 @@
         margin: 0
         text-decoration: none
         position: relative
-        display: inline-block
-        height: 35px
-        width: 35px
+        display: inline-flex
+        height: 40px
+        width: 40px
+        align-items: center
+        justify-content: center
         color: $zeta
+        font-size: 2.5rem
+        line-height: 1
 
         &:hover
             > svg
@@ -14,3 +18,11 @@
 
     > svg
         transition: all ease-in-out .2s
+
+    // font-awesome icons inside links
+    > .link > i
+        transition: color .12s ease-in-out, transform .08s ease
+        /* slightly larger and centered */
+        font-size: 1.15rem
+        display: inline-block
+        line-height: 1

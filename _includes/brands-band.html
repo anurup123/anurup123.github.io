@@ -1,0 +1,175 @@
+{% comment %} Brands band: show logos from assets/images/brands/ if present, otherwise fall back to defaults {% endcomment %}
+{% assign brand_files = site.static_files | where_exp: "f", "f.path contains '/assets/images/brands/'" | sort: "path" %}
+
+{% comment %} Map of logo filenames to URLs {% endcomment %}
+{% assign brand_links = "cambridge.png=https://www.cam.ac.uk,metoffice.png=https://www.metoffice.gov.uk,imperial.png=https://www.imperial.ac.uk,albion-vc.png=https://www.albion.vc,cloudflare.png=https://www.cloudflare.com,isi.png=https://www.isical.ac.in,jadavpur.png=https://jadavpuruniversity.in,jio.png=https://www.jio.com,waterloo.png=https://uwaterloo.ca" | split: "," %}
+{% assign brand_map = "" | split: "," %}
+{% for link in brand_links %}
+  {% assign parts = link | split: "=" %}
+  {% capture brand_name %}{{ parts[0] }}{% endcapture %}
+  {% capture brand_url %}{{ parts[1] }}{% endcapture %}
+{% endfor %}
+
+{% if brand_files and brand_files.size > 0 %}
+<div class="brands-band" aria-hidden="true">
+  <div class="brands-track">
+    {% comment %} Display preferred logos: Cambridge, Met Office first, then all others, then Imperial last {% endcomment %}
+    {% assign preferred_first = "cambridge.png,metoffice.png" | split: "," %}
+    {% assign preferred_last = "imperial.png" | split: "," %}
+    
+    {% comment %} Display Cambridge and Met Office first {% endcomment %}
+    {% for pref in preferred_first %}
+      {% assign logo = brand_files | where_exp: "f", "f.name == pref" | first %}
+      {% if logo %}
+        {% comment %} Extract URL for this logo {% endcomment %}
+        {% assign logo_url = "" %}
+        {% for link in brand_links %}
+          {% assign parts = link | split: "=" %}
+          {% if parts[0] == logo.name %}
+            {% assign logo_url = parts[1] %}
+          {% endif %}
+        {% endfor %}
+        <div class="brand">
+          {% if logo_url != "" %}
+            <a href="{{ logo_url }}" target="_blank" rel="noopener noreferrer" title="{{ logo.name | replace: '.png', '' }}">
+              <img src="{{ site.url }}{{ logo.path }}" alt="{{ logo.name | replace: '.png', '' }}" />
+            </a>
+          {% else %}
+            <img src="{{ site.url }}{{ logo.path }}" alt="{{ logo.name | replace: '.png', '' }}" />
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    
+    {% comment %} Display remaining logos (not Cambridge, Met Office, or Imperial) {% endcomment %}
+    {% for f in brand_files %}
+      {% unless preferred_first contains f.name or preferred_last contains f.name %}
+        {% comment %} Extract URL for this logo {% endcomment %}
+        {% assign logo_url = "" %}
+        {% for link in brand_links %}
+          {% assign parts = link | split: "=" %}
+          {% if parts[0] == f.name %}
+            {% assign logo_url = parts[1] %}
+          {% endif %}
+        {% endfor %}
+        <div class="brand">
+          {% if logo_url != "" %}
+            <a href="{{ logo_url }}" target="_blank" rel="noopener noreferrer" title="{{ f.name | replace: '.png', '' }}">
+              <img src="{{ site.url }}{{ f.path }}" alt="{{ f.name | replace: '.png', '' }}" />
+            </a>
+          {% else %}
+            <img src="{{ site.url }}{{ f.path }}" alt="{{ f.name | replace: '.png', '' }}" />
+          {% endif %}
+        </div>
+      {% endunless %}
+    {% endfor %}
+    
+    {% comment %} Display Imperial last {% endcomment %}
+    {% for pref in preferred_last %}
+      {% assign logo = brand_files | where_exp: "f", "f.name == pref" | first %}
+      {% if logo %}
+        {% comment %} Extract URL for this logo {% endcomment %}
+        {% assign logo_url = "" %}
+        {% for link in brand_links %}
+          {% assign parts = link | split: "=" %}
+          {% if parts[0] == logo.name %}
+            {% assign logo_url = parts[1] %}
+          {% endif %}
+        {% endfor %}
+        <div class="brand">
+          {% if logo_url != "" %}
+            <a href="{{ logo_url }}" target="_blank" rel="noopener noreferrer" title="{{ logo.name | replace: '.png', '' }}">
+              <img src="{{ site.url }}{{ logo.path }}" alt="{{ logo.name | replace: '.png', '' }}" />
+            </a>
+          {% else %}
+            <img src="{{ site.url }}{{ logo.path }}" alt="{{ logo.name | replace: '.png', '' }}" />
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    
+    {% comment %} duplicate to make continuous scroll %}{% endcomment %}
+    {% for pref in preferred_first %}
+      {% assign logo = brand_files | where_exp: "f", "f.name == pref" | first %}
+      {% if logo %}
+        {% comment %} Extract URL for this logo {% endcomment %}
+        {% assign logo_url = "" %}
+        {% for link in brand_links %}
+          {% assign parts = link | split: "=" %}
+          {% if parts[0] == logo.name %}
+            {% assign logo_url = parts[1] %}
+          {% endif %}
+        {% endfor %}
+        <div class="brand">
+          {% if logo_url != "" %}
+            <a href="{{ logo_url }}" target="_blank" rel="noopener noreferrer" title="{{ logo.name | replace: '.png', '' }}">
+              <img src="{{ site.url }}{{ logo.path }}" alt="{{ logo.name | replace: '.png', '' }}" />
+            </a>
+          {% else %}
+            <img src="{{ site.url }}{{ logo.path }}" alt="{{ logo.name | replace: '.png', '' }}" />
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    {% for f in brand_files %}
+      {% unless preferred_first contains f.name or preferred_last contains f.name %}
+        {% comment %} Extract URL for this logo {% endcomment %}
+        {% assign logo_url = "" %}
+        {% for link in brand_links %}
+          {% assign parts = link | split: "=" %}
+          {% if parts[0] == f.name %}
+            {% assign logo_url = parts[1] %}
+          {% endif %}
+        {% endfor %}
+        <div class="brand">
+          {% if logo_url != "" %}
+            <a href="{{ logo_url }}" target="_blank" rel="noopener noreferrer" title="{{ f.name | replace: '.png', '' }}">
+              <img src="{{ site.url }}{{ f.path }}" alt="{{ f.name | replace: '.png', '' }}" />
+            </a>
+          {% else %}
+            <img src="{{ site.url }}{{ f.path }}" alt="{{ f.name | replace: '.png', '' }}" />
+          {% endif %}
+        </div>
+      {% endunless %}
+    {% endfor %}
+    {% for pref in preferred_last %}
+      {% assign logo = brand_files | where_exp: "f", "f.name == pref" | first %}
+      {% if logo %}
+        {% comment %} Extract URL for this logo {% endcomment %}
+        {% assign logo_url = "" %}
+        {% for link in brand_links %}
+          {% assign parts = link | split: "=" %}
+          {% if parts[0] == logo.name %}
+            {% assign logo_url = parts[1] %}
+          {% endif %}
+        {% endfor %}
+        <div class="brand">
+          {% if logo_url != "" %}
+            <a href="{{ logo_url }}" target="_blank" rel="noopener noreferrer" title="{{ logo.name | replace: '.png', '' }}">
+              <img src="{{ site.url }}{{ logo.path }}" alt="{{ logo.name | replace: '.png', '' }}" />
+            </a>
+          {% else %}
+            <img src="{{ site.url }}{{ logo.path }}" alt="{{ logo.name | replace: '.png', '' }}" />
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% else %}
+<div class="brands-band" aria-hidden="true">
+  <div class="brands-track">
+    {% assign fallback = "/assets/images/dblp.png,/assets/images/google-scholar.png" | split:',' %}
+    {% for p in fallback %}
+      <div class="brand">
+        <img src="{{ site.url }}{{ p }}" alt="" />
+      </div>
+    {% endfor %}
+    {% for p in fallback %}
+      <div class="brand">
+        <img src="{{ site.url }}{{ p }}" alt="" />
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

@@ -60,3 +60,205 @@
 
 .lost-container
     text-align: center
+
+
+.cv-band
+    background: $epsilon
+    padding: 10px 14px
+    border-radius: 4px
+    margin-bottom: 24px
+    text-align: center
+
+    > a
+        color: $beta
+        text-decoration: none
+        font-weight: 400
+        display: inline-flex
+        align-items: center
+
+        &:hover
+            text-decoration: underline
+
+    .drive-icon
+        width: 18px
+        height: 18px
+        margin-right: 8px
+        vertical-align: middle
+        object-fit: contain
+
+    .cv-text
+        font-size: 1.4rem
+        font-weight: $thin-font
+
+
+.about-layout
+    display: flex
+    gap: 28px
+    align-items: flex-start
+
+    @media #{$mobile}
+        display: block
+
+.about-nav
+    width: 220px
+    position: sticky
+    top: 84px
+
+    nav
+        ul
+            list-style: none
+            margin: 0
+            padding: 0
+
+            li
+                margin-bottom: 6px
+
+    a
+        color: $gama
+        text-decoration: none
+        display: block
+        padding: 6px 8px
+        border-radius: 4px
+        cursor: pointer
+        transition: color .12s ease-in-out, background .12s ease-in-out
+
+        &:hover
+            color: $beta
+            text-decoration: underline
+
+        &:focus
+            outline: 2px solid $epsilon
+
+    // stronger visual affordance for clickable links
+    a[aria-current="true"],
+    a.active
+        color: $delta
+        font-weight: 700
+        background: $epsilon
+        border-left: 3px solid $delta
+        padding-left: 6px
+
+.about-content
+    flex: 1
+    min-width: 0
+    scroll-behavior: smooth
+
+    @media #{$mobile}
+        padding: 0 8px
+
+    h2
+        margin-top: 0rem
+
+
+.pub-band
+    display: flex
+    gap: 12px
+    margin: 0 0 1.2rem 0
+    flex-wrap: wrap
+
+    .pub-link
+        color: $beta
+        text-decoration: none
+        font-weight: 400
+        display: inline-flex
+        align-items: center
+        background: $epsilon
+        padding: 8px 14px
+        border-radius: 6px
+
+        &:hover
+            text-decoration: underline
+
+        &:focus
+            outline: 2px solid $delta
+
+        .pub-logo
+            width: 20px
+            height: 20px
+            object-fit: contain
+            margin-right: 8px
+            display: inline-block
+
+
+/* brands band (logos above footer on index) */
+.brands-band
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 18px 0
+    overflow: hidden
+    width: 100%
+    min-height: 80px
+    margin-top: 40px
+
+    /* pause animation when the user hovers */
+    &:hover .brands-track
+        animation-play-state: paused
+
+    .brands-track
+        display: flex
+        align-items: center
+        gap: 24px
+        animation: brands-scroll 60s linear infinite
+
+        /* duplicate content is present in the HTML to make continuous loop */
+
+    @keyframes brands-scroll
+        /* move content leftwards continuously */
+        0%
+            transform: translateX(0)
+        100%
+            transform: translateX(-50%)
+
+    .brand
+        display: inline-flex
+        align-items: center
+        justify-content: center
+        padding: 0 6px
+        filter: grayscale(100%) opacity(0.6)
+        transition: filter .16s ease, opacity .16s ease, transform .12s ease
+        flex-shrink: 0
+        width: 140px
+        height: 80px
+
+        a
+            display: inline-flex
+            align-items: center
+            justify-content: center
+            width: 100%
+            height: 100%
+            text-decoration: none
+
+        img
+            width: 100%
+            height: 100%
+            object-fit: contain
+            display: block
+
+            @media #{$tablet}
+                width: 120px
+
+            @media #{$mobile}
+                width: 90px
+
+        &:hover
+            filter: none
+            opacity: 1
+            transform: translateY(-3px)
+
+        span
+            /* match the Download in PDF label style */
+            font-size: 1.4rem
+            font-weight: $thin-font
+
+
+/* hide all sections by default; JS will toggle the .active class */
+.about-section
+    display: none
+
+.about-section.active
+    display: block
+
+.about-nav a.active
+    color: $delta
+    font-weight: 700
