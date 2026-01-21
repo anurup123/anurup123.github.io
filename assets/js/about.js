@@ -69,12 +69,12 @@
       });
     }
 
-    // initial: check hash or default to education
-    var initial = (location.hash && location.hash.replace('#','')) || 'education';
+    // initial: check hash or default to short bio
+    var initial = (location.hash && location.hash.replace('#','')) || 'short-bio';
     showSection(initial);
     // also set the first link as active if no hash
     if(!location.hash){
-      var firstLink = document.querySelector('.about-nav a[href="#education"]');
+      var firstLink = document.querySelector('.about-nav a[href="#short-bio"]');
       if(firstLink) firstLink.classList.add('active');
     }
     // align on load (no smooth scroll)

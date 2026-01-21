@@ -15,6 +15,7 @@ layout: page
   <aside class="about-nav" aria-label="About sections">
     <nav>
       <ul>
+        <li><a href="#short-bio">Short Bio</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#academic-work-experience">Academic Work Experience</a></li>
         <li><a href="#industrial-work-experience">Industrial Work Experience</a></li>
@@ -31,9 +32,27 @@ layout: page
 
   <div class="about-content" markdown="1">
 
+<!-- Short Bio -->
+
+<div class="about-section active" data-section="short-bio" markdown="1">
+
+## Short Bio {#short-bio}
+
+Pritthijit Nath is a PhD student at the University of Cambridge, jointly working with the UK Met Office through the AI4ER CDT. His research focuses on integrating reinforcement learning into physical parametrisations to enhance weather and climate models, with a strong emphasis on maintaining physical consistency and interpretability. He has developed scalable testbeds for evaluating RL algorithms and is now applying them within the Unified Model framework. With a background spanning machine learning, climate science, and high-performance computing, Pritthijit’s work aims to advance hybrid climate modelling using physically grounded AI for robust long-term predictions.
+
+<button id="expand-bio-btn" class="expand-btn" onclick="document.getElementById('bio-expanded').style.display='block'; this.style.display='none';">Expand</button>
+
+<div id="bio-expanded" style="display: none; margin-top: 1rem;" markdown="1">
+
+Before starting his PhD, he completed an MSc in Computing with specialisation in Artificial Intelligence and Machine Learning at Imperial College London, where he explored the use of diffusion models for spatio-temporal forecasting of tropical cyclones. He previously earned a Bachelor's degree in Computer Science from Jadavpur University, Kolkata, where he also worked on time-series approaches to forecast pollution trends across India. Beyond academic pursuits and the occasional travel (when not grounded by visa issues), Pritthijit is an enthusiastic train nerd with a deep fascination for railway networks and transport trivia. Post-PhD, he hopes to take on the legendary [Knowledge](https://tfl.gov.uk/info-for/taxis-and-private-hire/licensing/learn-the-knowledge-of-london) exam — not for a career change, but simply for the intellectual challenge of becoming a part-time licensed London taxi driver.
+
+</div>
+
 <!-- Education -->
 
-<div class="about-section active" data-section="education" markdown="1">
+</div>
+
+<div class="about-section" data-section="education" markdown="1">
 
 ## Education {#education}
 
@@ -87,21 +106,21 @@ University of Waterloo, Waterloo, Canada
 **Sep 2021 – Sep 2022**  
 - Developed data extraction scripts to ingest historical smart home device readings into an Azure-hosted Microsoft SQL database  
 - Deployed an automated cloud-based device registration website to source data from IoT-enabled smart wearable devices  
-- Project Supervisor: Dr Plinio Morita  
+- Project Supervisor: [Dr Plinio Morita](https://scholar.google.ca/citations?hl=en&user=pMiZZU4AAAAJ&view_op=list_works&sortby=pubdate)
 
 **MITACS Globalink Research Intern**  
 University of Waterloo, Waterloo, Canada   
 **Jun 2021 – Sep 2021**  
 - Built a data ecosystem for mining and hosting air quality data from consumer-grade sensors deployed in Ulaanbaatar, Mongolia  
 - Engineered Azure-based cloud infrastructure and developed data ingestion pipelines for sensor onboarding  
-- Project Supervisor: Dr Plinio Morita  
+- Project Supervisor: [Dr Plinio Morita](https://scholar.google.ca/citations?hl=en&user=pMiZZU4AAAAJ&view_op=list_works&sortby=pubdate)
 
 **IASc Summer Research Fellow**  
 Indian Statistical Institute, Kolkata, India  
 **Jun 2021 – Aug 2021**  
 - Developed an ML-based approach to predict the most suitable neural network verifier for Acas-Xu–style models with piecewise linear activations  
 - Implemented an end-to-end benchmarking pipeline to evaluate adversarial robustness and extract structural model signatures  
-- Project Supervisor: Dr Ansuman Banerjee  
+- Project Supervisor: [Dr Ansuman Banerjee](https://scholar.google.com/citations?hl=en&user=rGFo1TQAAAAJ&view_op=list_works&sortby=pubdate)  
 
 **Undergraduate Research Assistant**  
 Jadavpur University, Kolkata, India  
@@ -110,7 +129,7 @@ Jadavpur University, Kolkata, India
 - Proposed hybrid learner models for spatiotemporal pollution forecasting using satellite aerosol optical depth and multi-site ensembles  
 - Performed comparative evaluations of statistical and DL-based methods for long-term pollution time-series forecasting  
 - Developed a novel accuracy enhancement method for time-series prediction using Matrix Profile and motif discovery  
-- Project Supervisor: Dr Sarbani Roy  
+- Project Supervisor: [Dr Sarbani Roy](https://scholar.google.com/citations?hl=en&user=vembv2sAAAAJ&view_op=list_works&sortby=pubdate)  
 
 
 <!-- Work Experience | Industrial -->
