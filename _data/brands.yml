@@ -3,7 +3,7 @@
 # Brands will be displayed in the order they appear in this file
 
 brands:
-    
+
   - filename: metoffice.png
     url: https://www.metoffice.gov.uk
     

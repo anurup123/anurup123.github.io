@@ -20,6 +20,26 @@
     > .title
         font-size: 4rem
         margin: 0 0 13px
+        perspective: 1000px
+        
+        #name-display
+            display: inline-block
+            cursor: pointer
+            transform-style: preserve-3d
+            transition: transform 0.3s ease
+            text-align: center
+            vertical-align: middle
+            
+            &.flipping
+                animation: flip 0.3s ease-in-out
+        
+        @keyframes flip
+            0%
+                transform: rotateX(0deg)
+            50%
+                transform: rotateX(90deg)
+            100%
+                transform: rotateX(0deg)
 
     > .description
         font-size: 1.85rem

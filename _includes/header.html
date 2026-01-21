@@ -16,7 +16,9 @@
             </span>
         {% endif %}
 
-        <h1 class="title">{{ site.title }}</h1>
+        <h1 class="title">
+            <span id="name-display" data-bengali-name="{{ site.title-bengali }}" data-english-name="{{ site.title }}">{{ site.title }}</span>
+        </h1>
         <h2 class="description">{% assign bio_parts = site.bio | split: 'Weather' %}{{ bio_parts[0] }}<a href="{{ site.url }}/weather" class="weather-link">Weather</a>{{ bio_parts[1] }}</h2>
 
         {% include social-links.html %}
