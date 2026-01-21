@@ -5,8 +5,8 @@
 {% if brand_files and brand_files.size > 0 and brands_data %}
 <div class="brands-band" aria-hidden="true">
   <div class="brands-track">
-    {% comment %} Repeat the logo sequence 5 times for continuous scrolling {% endcomment %}
-    {% for repeat in (1..5) %}
+    {% comment %} Repeat the logo sequence 10 times for continuous scrolling {% endcomment %}
+    {% for repeat in (1..10) %}
       {% comment %} Display brands in the order they appear in the YAML file {% endcomment %}
       {% for brand in brands_data %}
         {% comment %} Find the matching file from assets/images/brands/ {% endcomment %}

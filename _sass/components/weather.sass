@@ -1,0 +1,180 @@
+
+/* Weather widget styling */
+.weather-widget
+    margin: 30px 0
+    padding: 20px
+    background: $epsilon
+    border-radius: 8px
+    border: 1px solid $delta
+    max-width: 100%
+    box-sizing: border-box
+
+.weather-header
+    margin-bottom: 20px
+    
+    h3
+        margin: 0 0 5px 0
+        color: $beta
+        font-size: 1.8rem
+    
+    .weather-source
+        margin: 0
+        font-size: 0.9rem
+        color: $gama
+
+.weather-container
+    display: grid
+    grid-template-columns: 1fr 2fr
+    gap: 20px
+    margin-bottom: 20px
+
+    @media #{$mobile}
+        grid-template-columns: 1fr
+
+.weather-current
+    h4
+        margin-top: 0
+        color: $beta
+        font-size: 1.5rem
+
+.weather-info
+    display: flex
+    flex-direction: column
+    gap: 12px
+    max-width: 100%
+
+.temp-display
+    display: flex
+    flex-direction: column
+    gap: 4px
+
+    .temperature
+        font-size: 3.6rem
+        font-weight: 700
+        color: $delta
+
+    .weather-desc
+        font-size: 1.6rem
+        color: $gama
+        word-wrap: break-word
+
+.weather-details
+    display: flex
+    flex-direction: column
+    gap: 6px
+
+    .detail
+        font-size: 1.3rem
+        color: $alpha
+        word-wrap: break-word
+
+.weather-forecast
+    h4
+        margin-top: 0
+        color: $beta
+        font-size: 1.5rem
+
+.weather-3day
+    border-top: 1px solid $delta
+    padding-top: 20px
+    
+    h4
+        margin-top: 0
+        color: $beta
+        font-size: 1.5rem
+
+.forecast-loading,
+.weather-loading,
+.forecast-3day-loading
+    color: $gama
+
+.forecast-hours
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: repeat(2, 1fr)
+    gap: 8px
+    padding: 8px 0
+    max-width: 100%
+
+    @media #{$mobile}
+        gap: 4px
+        grid-template-columns: repeat(3, 1fr)
+
+.forecast-hour
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 4px
+    padding: 8px 12px
+    background: $omega
+    border-radius: 4px
+    min-width: 0
+    text-align: center
+    flex-shrink: 1
+
+    @media #{$mobile}
+        padding: 6px 8px
+        gap: 2px
+
+    .forecast-time
+        font-size: 1.1rem
+        font-weight: 700
+        color: $beta
+        white-space: nowrap
+
+        @media #{$mobile}
+            font-size: 1rem
+
+    .forecast-icon
+        font-size: 2.2rem
+
+    .forecast-temp
+        font-size: 1.3rem
+        color: $alpha
+        white-space: nowrap
+        font-size: 1rem
+        color: $alpha
+
+.forecast-days
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 12px
+
+    @media #{$mobile}
+        grid-template-columns: 1fr
+
+.forecast-day
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 8px
+    padding: 12px
+    background: $omega
+    border-radius: 4px
+    text-align: center
+
+    .day-name
+        font-size: 1.2rem
+        font-weight: 700
+        color: $beta
+
+    .day-icon
+        font-size: 2.8rem
+
+    .day-desc
+        font-size: 1.1rem
+        color: $gama
+
+    .day-temps
+        display: flex
+        gap: 12px
+        font-size: 1.4rem
+        color: $alpha
+
+        .max-temp
+            font-weight: 700
+            color: $delta
+
+        .min-temp
+            opacity: 0.7
+        white-space: nowrap

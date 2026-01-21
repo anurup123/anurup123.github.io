@@ -1,0 +1,22 @@
+<div class="weather-widget">
+  <div class="weather-header">
+    <h3>Weather in <span id="location-name">Detecting location...</span></h3>
+    <p class="weather-source">Data source: ECMWF</p>
+  </div>
+  <div class="weather-container">
+    <div class="weather-current">
+      <h4>Current Weather</h4>
+      <div id="weather-data" class="weather-loading">Loading weather...</div>
+    </div>
+    <div class="weather-forecast">
+      <h4>6-Hour Forecast</h4>
+      <div id="forecast-data" class="forecast-loading">Loading forecast...</div>
+    </div>
+  </div>
+  <div class="weather-3day">
+    <h4>3-Day Forecast</h4>
+    <div id="forecast-3day" class="forecast-3day-loading">Loading 3-day forecast...</div>
+  </div>
+</div>
+
+<script src="{{ site.url }}/assets/js/weather.js"></script>
