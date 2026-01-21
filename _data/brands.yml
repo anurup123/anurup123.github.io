@@ -1,0 +1,44 @@
+# Brand logos and their associated websites
+# Add new brands by adding a new entry with filename and url
+# Brands will be displayed in the order they appear in this file
+
+brands:
+  - filename: cloudflare.png
+    url: https://www.cloudflare.com
+    
+  - filename: albion-vc.png
+    url: https://www.albion.vc
+
+  - filename: waterloo.png
+    url: https://uwaterloo.ca
+
+  - filename: mitacs.png
+    url: https://www.mitacs.ca/our-programs/globalink-research-internship-students/
+    
+  - filename: isi.png
+    url: https://www.isical.ac.in
+        
+  - filename: cambridge.png
+    url: https://www.cam.ac.uk
+    
+  - filename: metoffice.png
+    url: https://www.metoffice.gov.uk
+    
+  - filename: imperial.png
+    url: https://www.imperial.ac.uk
+
+  - filename: jadavpur.png
+    url: https://jadavpuruniversity.in
+
+  - filename: turing.png
+    url: https://www.turing.ac.uk/
+
+  - filename: iasc-nasi-insa.png
+    url: https://insaindia.res.in/science-and-society/  
+
+  - filename: jio.png
+    url: https://www.jio.com/platforms/
+  
+  - filename: ieee-cs.png
+    url: https://www.computer.org/volunteering/awards/scholarships/merwin
+  
