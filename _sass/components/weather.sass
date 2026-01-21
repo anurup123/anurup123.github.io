@@ -48,10 +48,37 @@
     flex-direction: column
     gap: 4px
 
+    .temp-row
+        display: flex
+        align-items: flex-end
+        gap: 16px
+
     .temperature
         font-size: 3.6rem
         font-weight: 700
         color: $delta
+        line-height: 1.25
+
+    .feels-like
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        gap: 2px
+        padding-bottom: 4px
+
+    .feels-like-label
+        font-size: 1rem
+        font-weight: 400
+        color: $gama
+        text-transform: uppercase
+        letter-spacing: 0.5px
+        line-height: 1
+
+    .feels-like-temp
+        font-size: 3.6rem
+        font-weight: 300
+        color: $delta
+        line-height: 1
 
     .weather-desc
         font-size: 1.6rem
@@ -117,23 +144,24 @@
         gap: 2px
 
     .forecast-time
-        font-size: 1.1rem
+        font-size: 1.3rem
         font-weight: 700
         color: $beta
         white-space: nowrap
 
         @media #{$mobile}
-            font-size: 1rem
+            font-size: 1.2rem
 
     .forecast-icon
-        font-size: 2.2rem
+        font-size: 2.4rem
 
     .forecast-temp
-        font-size: 1.3rem
+        font-size: 1.4rem
         color: $alpha
         white-space: nowrap
-        font-size: 1rem
-        color: $alpha
+
+        @media #{$mobile}
+            font-size: 1.3rem
 
 .forecast-days
     display: grid
@@ -141,35 +169,64 @@
     gap: 12px
 
     @media #{$mobile}
-        grid-template-columns: 1fr
+        gap: 8px
 
 .forecast-day
     display: flex
     flex-direction: column
     align-items: center
-    gap: 8px
     padding: 12px
     background: $omega
     border-radius: 4px
     text-align: center
 
     .day-name
-        font-size: 1.2rem
+        font-size: 1.4rem
         font-weight: 700
         color: $beta
+        height: 4rem
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-bottom: 8px
+        line-height: 1.4
+
+        @media #{$mobile}
+            font-size: 1.2rem
+            height: 3.6rem
 
     .day-icon
-        font-size: 2.8rem
+        font-size: 3.2rem
+        height: 3.2rem
+        display: flex
+        align-items: center
+        margin-bottom: 8px
+
+        @media #{$mobile}
+            font-size: 2.8rem
+            height: 2.8rem
 
     .day-desc
-        font-size: 1.1rem
+        font-size: 1.3rem
         color: $gama
+        height: 3.2rem
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-bottom: 8px
+
+        @media #{$mobile}
+            font-size: 1.1rem
+            height: 2.8rem
 
     .day-temps
         display: flex
         gap: 12px
-        font-size: 1.4rem
+        font-size: 1.6rem
         color: $alpha
+
+        @media #{$mobile}
+            font-size: 1.4rem
 
         .max-temp
             font-weight: 700
