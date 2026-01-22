@@ -6,8 +6,8 @@ description: MS Student in Computer Science (AI & ML) at New York University
 
 # if it's an external image, update below
 external-image: false
-picture: assets/images/profile.jpg
-logo: assets/images/profile.jpg
+picture: assets/images/profile.jpeg
+logo: assets/images/profile.jpeg
 
 # site color theme: true=dark, false=light, auto=system
 dark-theme: false
@@ -38,9 +38,9 @@ email: an4462@nyu.edu
 authors:
   anurup123:
     name: Anurup Naskar
-    bio: MS Student in Computer Science (AI & ML) at NYU
+    bio: MS Student in Computer Science (AI & ML) at New York University
     external-image: false
-    picture: assets/images/profile.jpg
+    picture: assets/images/profile.jpeg
 
 # site width option: normal or large
 width: normal
