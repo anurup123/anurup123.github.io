@@ -60,7 +60,7 @@ At NYU, I joined **M²LInES** and began working with **Prof. Sara Shamekh** on l
 ## Education {#education}
 
 **MS in Computer Science (AI and ML Specialism)**  
-New York University (Courant), New York, USA  
+New York University, New York, USA  
 **2024 – 2026**  
 - GPA: **4.0 / 4.0** (highest in cohort)  
 - Coursework: **A**; Capstone Project: **Highest Band**
