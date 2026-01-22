@@ -3,11 +3,23 @@
 
 brands:
 
+  - filename: NYU-Logo.png
+    url: https://www.nyu.edu
+
   - filename: courant.jpg
     url: https://courant.nyu.edu
 
+  - filename: langone.png
+    url: https://nyulangone.org
+
   - filename: m2lines.png
     url: https://m2lines.github.io
+
+  - filename: cilvr.png
+    url: https://wp.nyu.edu/cilvr/
+
+  - filename: caos.png
+    url: https://caos.cims.nyu.edu
 
   - filename: jadavpur.png
     url: https://jadavpuruniversity.in
