@@ -1,95 +1,67 @@
 # main text of home
-title: Pritthijit Nath
-title-bengali: পৃথ্বীজিৎ নাথ
-bio: PhD Researcher in AI + Weather & Climate
-description: PhD Researcher in AI + Weather & Climate at University of Cambridge
+title: Anurup Naskar
+title-bengali: '' # optional
+bio: MS Student in Computer Science (AI & ML)
+description: MS Student in Computer Science (AI & ML) at New York University
 
-# twitter summary info
-# description: A blog about technology and stuff related
-
-# if it's an external image, update below for true
-# better with square images
+# if it's an external image, update below
 external-image: false
 picture: assets/images/profile.jpg
-logo: assets/images/cambridge-crest.jpg
+logo: assets/images/profile.jpg
 
-# your site color theme, true for dark theme, 
-# false to light theme, auto to switch with system.
+# site color theme: true=dark, false=light, auto=system
 dark-theme: false
 
-# If you want to include your CV, set to true
-# and specify source (external or local).
+# If you want to include your CV, set to true and specify URL/source.
 # resume: true
 # resume-external: true
-# resume-url: https://drive.google.com/file/d/1XImoj6dR_Bxu1NUU3wvl-vkb6AkzzrXi/view?usp=drive_link
+# resume-url: https://drive.google.com/file/d/REPLACE_WITH_YOUR_CV_PDF/view?usp=sharing
 
-url: https://p3jitnath.github.io
+# Set this to your GitHub Pages URL
+url: https://anurup123.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
 
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
-
-# if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname: github
+  categories: [blog, project]
 
-# if you don't have any of social below, comment the line
+# social accounts
 # facebook: myfacebook
 # twitter: mytwitter
 # instagram: myinstagram
-linkedin: pritthijit
-github: p3jitnath
-email: pn341@cam.ac.uk
+linkedin: https://www.linkedin.com/in/anurup-naskar-0819972b6
+github: anurup123
+email: an4462@nyu.edu
 
 authors:
-  pritthijitnath:
-    name: Pritthijit Nath
-    bio: MRes + PhD AI4ER CDT @ University of Cambridge
+  anurup123:
+    name: Anurup Naskar
+    bio: MS Student in Computer Science (AI & ML) at NYU
     external-image: false
     picture: assets/images/profile.jpg
 
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
+# site width option: normal or large
 width: normal
 
-# if you don't need projects, comment the *projects* configs below
-# projects: true
-
-# if you don't need "about" or "blog", comment them out below
+# enable/disable site features
 about: true
 # blog: true
 weather: true
 
-# do you want to show the "read time" of the posts?
 read-time: true
-
-# do you want to show the "tags" inside the posts?
 show-tags: true
-
-# related posts inside a post?
 related: true
-
-# Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
-
-# show author block at the end of a post ?
 show-author: true
-
-# do you want some animations?
 animation: true
 
-# add default values to specific pages or layouts
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
       layout: "post"
     values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
       hidden: false
 
 plugins:
@@ -99,16 +71,4 @@ plugins:
   - jemoji
 
 compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
-
-exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "vendor",
-  ]
+  ignore: 
