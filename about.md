@@ -36,7 +36,7 @@ layout: page
 
 ## Short Bio {#short-bio}
 
-I am **Anurup Naskar**, an MS student in Computer Science (AI and ML specialism) at **New York University (Courant)**. My research sits at the intersection of **generative modelling** and **atmospheric observations**, with a focus on reconstructing and gap-filling remote-sensing fields under sparsity, low SNR, and non-Gaussian noise. Concretely, I work with **masked modelling** and **diffusion-based inpainting** to recover physically meaningful structures in time height observations that are critical for diagnosing convection.
+I am **Anurup Naskar**, an MS student in Computer Science (AI and ML specialism) at **New York University**. My research sits at the intersection of **generative modelling** and **atmospheric observations**, with a focus on reconstructing and gap-filling remote-sensing fields under sparsity, low SNR, and non-Gaussian noise. Concretely, I work with **masked modelling** and **diffusion-based inpainting** to recover physically meaningful structures in time height observations that are critical for diagnosing convection.
 
 <button id="expand-bio-btn" class="expand-btn" onclick="document.getElementById('bio-expanded').style.display='block'; this.style.display='none';">Expand</button>
 
