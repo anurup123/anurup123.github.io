@@ -148,6 +148,35 @@ NYU Courant Institute of Mathematical Sciences, New York, USA
 
 </div>
 
+## Publications {#publications}
+
+1. **Naskar, A.**, Wong, N. Z., Shamekh, S.  
+   [CuMoLoS-MAE: A Masked Autoencoder for Remote Sensing Data Reconstruction.](http://arxiv.org/abs/2508.14957)  
+   NeurIPS Workshop on Tackling Climate Change with ML, 2025. arXiv:2508.14957
+
+2. **Naskar, A.**, Wong, N. Z., Shamekh, S.  
+   [Multivariate Estimation of Vertical Profiles to Better Understand the Shallow-to-Deep Transition of Convection in the Bankhead National Forest.](https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1954999)  
+   AGU Fall Meeting Abstracts, 2025.
+
+3. Wong, N. Z., **Naskar, A.**, Shamekh, S.  
+   [Investigating how Different Large-Scale Environmental Conditions impact the Shallow-to-Deep Transition of Convection.](https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1934844)  
+   AGU Fall Meeting Abstracts, 2025.
+
+4. **Naskar, A.**, Ghosh, S., Kundu, M., Sarkar, R.  
+   [Feature selection using guided population based genetic algorithm with modified crossover and parent selection.](https://linkinghub.elsevier.com/retrieve/pii/S1568494625001838)  
+   *Applied Soft Computing*, 2025, 172:112872.
+
+5. Pramanik, P., Pramanik, R., **Naskar, A.**, Mirjalili, S., Sarkar, R.  
+   [U-WOA: an unsupervised whale optimization algorithm based deep feature selection method for cancer detection in breast ultrasound images.](https://linkinghub.elsevier.com/retrieve/pii/B9780323953658000208)  
+   In: *Handbook of Whale Optimization Algorithm*. Elsevier, 2024, pp. 179–191.
+
+6. **Naskar, A.**, Pramanik, R., Hossain, S. K. S., Mirjalili, S., Sarkar, R.  
+   [Late acceptance hill climbing aided chaotic harmony search for feature selection: An empirical analysis on medical data.](https://linkinghub.elsevier.com/retrieve/pii/S0957417423002464)  
+   *Expert Systems with Applications*, 2023, 221:119745.
+
+</div>
+
+
 <!-- Languages -->
 <div class="about-section" data-section="languages" markdown="1">
 
