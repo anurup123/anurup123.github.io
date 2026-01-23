@@ -5,7 +5,7 @@ layout: page
 
 <div class="cv-band">
   <!-- TODO: replace this link with your own CV PDF link -->
-  <a href="https://drive.google.com/file/d/REPLACE_WITH_YOUR_CV_PDF/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Open CV PDF">
+  <a href="https://drive.google.com/file/d/1YtzEJ7VeXn8q959dlJsf4dMYmG3brRG3/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Open CV PDF">
     <img class="drive-icon" src="{{ site.url }}{{ site.baseurl }}/assets/images/google-drive.png" alt="Google Drive" />
     <span class="cv-text">Download in PDF</span>
   </a>
