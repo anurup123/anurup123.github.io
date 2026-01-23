@@ -144,7 +144,7 @@ NYU Courant Institute of Mathematical Sciences, New York, USA
 **Jan 2026 – Present**  
 - Supporting instruction and assessment for graduate courses in ML for climate and DL.  
 - **MATH-GA 3006: Data-Driven Climate Science** (Instructor: [Prof. Sara Shamekh](https://sshamekh.com/))  
-- **CSCI-GA 2572-001: Deep Learning** (Instructors: [Prof. Yann LeCun](https://scholar.google.com/citations?user=WLN3qrAAAAAJ&hl=en) and [Prof. Alfredo Canziani](https://atcold.github.io/))
+- **CSCI-GA 2572-001: Deep Learning** (Instructors: [Prof. Yann LeCun](http://yann.lecun.com/) and [Prof. Alfredo Canziani](https://atcold.github.io/))
 
 
 </div>
