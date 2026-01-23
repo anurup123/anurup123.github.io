@@ -148,6 +148,9 @@ NYU Courant Institute of Mathematical Sciences, New York, USA
 
 </div>
 
+<!-- Publications -->
+<div class="about-section" data-section="publications" markdown="1">
+
 ## Publications {#publications}
 
 1. **Naskar, A.**, Wong, N. Z., Shamekh, S.  
@@ -175,6 +178,7 @@ NYU Courant Institute of Mathematical Sciences, New York, USA
    *Expert Systems with Applications*, 2023, 221:119745.
 
 </div>
+
 
 
 <!-- Languages -->
