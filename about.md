@@ -20,6 +20,7 @@ layout: page
         <li><a href="#education">Education</a></li>
         <li><a href="#research-experience">Research Experience</a></li>
         <li><a href="#teaching-experience">Teaching Experience</a></li>
+        <li><a href="#publications">Publications</a></li>
         <li><a href="#languages">Languages</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contributed-talks-and-posters">Contributed Talks & Posters</a></li>
@@ -145,7 +146,6 @@ NYU Courant Institute of Mathematical Sciences, New York, USA
 - **MATH-GA 3006: Data-Driven Climate Science** (Instructor: [Prof. Sara Shamekh](https://sshamekh.com/))  
 - **CSCI-GA 2572-001: Deep Learning** (Instructors: [Prof. Yann LeCun](http://yann.lecun.com/) and [Prof. Alfredo Canziani](https://atcold.github.io/))
 
-
 </div>
 
 <!-- Publications -->
@@ -178,8 +178,6 @@ NYU Courant Institute of Mathematical Sciences, New York, USA
    *Expert Systems with Applications*, 2023, 221:119745.
 
 </div>
-
-
 
 <!-- Languages -->
 <div class="about-section" data-section="languages" markdown="1">
