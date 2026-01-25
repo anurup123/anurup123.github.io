@@ -6,9 +6,9 @@
     z-index: 99
 
     > .link > .selfie
-        width: 125px
-        height: 125px
-        margin-bottom: 25px
+        width: 165px
+        height: 165px
+        margin-bottom: 30px
         border-radius: 100%
         transition: all .2s
         opacity: 1
@@ -21,8 +21,8 @@
             opacity: .8
 
     > .title
-        font-size: 4rem
-        margin: 0 0 13px
+        font-size: 2.8rem
+        margin: 10px 0 1px
         perspective: 1000px
         
         #name-display
@@ -45,14 +45,24 @@
                 transform: rotateX(0deg)
 
     > .description
-        font-size: 1.85rem
+        font-size: 1.4rem
         font-weight: $thin-font
         font-style: normal
         color: $gama
         width: 70%
-        margin: 0 auto 30px
+        margin: 0 auto 10px
 
         // if you put some links in your bio. ;)
         a
             font-weight: 200
             text-decoration: none
+.header-home > .link
+    display: block
+    text-align: center
+
+.header-home > .link > .selfie
+    display: block
+    margin: 0 auto
+
+
+

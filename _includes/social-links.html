@@ -25,6 +25,27 @@
         </a>
     {% endif %}
 
+    {% if site.google_scholar %}
+        <a class="link"
+        data-title="Google Scholar"
+        href="{{ site.google_scholar }}"
+        target="_blank"
+        rel="noopener"
+        aria-label="Google Scholar">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </a>
+    {% endif %}
+
+    {% if site.cv_url %}
+        <a class="link"
+        data-title="Download CV"
+        href="{{ site.cv_url }}"
+        target="_blank"
+        rel="noopener noreferrer" aria-label="Open CV PDF">
+            <i class="fa-brands fa-google-drive"></i>
+        </a>
+    {% endif %}
+
     {% if site.github %}
         <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener" alt="anchor link for social media github" aria-label="anchor link for social media github">
             <i class="fa-brands fa-github"></i>
