@@ -74,3 +74,5 @@ plugins:
 
 compress_html:
   ignore: 
+exclude:
+  - archive
