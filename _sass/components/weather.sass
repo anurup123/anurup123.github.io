@@ -202,8 +202,8 @@
     .min-temp
       opacity: 0.7
 
-// Mobile overflow fixes for weather widget
-@media #{$mobile}
+/* Mobile: single coherent block (replaces the two earlier mobile sections) */
+@media (max-width: 600px)
   .weather-widget
     margin: 24px 0
     padding: 14px
@@ -235,21 +235,32 @@
     .detail
       font-size: 1.1rem
 
+  /* 6-hour forecast: 2 columns to prevent time overlap */
   .forecast-hours
     grid-template-columns: repeat(2, minmax(0, 1fr))
     grid-template-rows: auto
-    gap: 8px
+    gap: 10px
 
   .forecast-hour
-    padding: 8px
+    padding: 10px 8px
     min-width: 0
+    max-width: 100%
+    box-sizing: border-box
 
     .forecast-time
+      font-size: 1.05rem
+      line-height: 1.1
       white-space: normal
+
+    .forecast-icon
+      font-size: 2.0rem
 
     .forecast-temp
+      font-size: 1.1rem
+      line-height: 1.1
       white-space: normal
 
+  /* 3-day forecast: stack vertically on mobile */
   .forecast-days
     grid-template-columns: 1fr
     gap: 10px
