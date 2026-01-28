@@ -200,4 +200,71 @@
             opacity: 0.7
         white-space: nowrap
 
+// Mobile overflow fixes for weather widget
+@media #{$mobile}
+  .weather-widget
+    margin: 24px 0
+    padding: 14px
+    width: 100%
+    max-width: 100%
+    overflow: hidden
+
+  .weather-container
+    grid-template-columns: 1fr
+    gap: 14px
+
+  // Let the temperature row wrap instead of forcing everything on one line
+  .temp-display
+    .temp-row
+      flex-wrap: wrap
+      gap: 10px
+
+    .temperature
+      font-size: 2.4rem
+      line-height: 1.1
+
+    .feels-like-temp
+      font-size: 2.2rem
+      line-height: 1.1
+
+    .weather-desc
+      font-size: 1.2rem
+
+  .weather-details
+    .detail
+      font-size: 1.1rem
+
+  // Reduce grid density on small screens
+  .forecast-hours
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+    grid-template-rows: auto
+    gap: 8px
+
+  .forecast-hour
+    padding: 8px
+    min-width: 0
+
+    .forecast-time,
+    .forecast-temp
+      white-space: normal  // was nowrap in desktop rules
+
+  .forecast-days
+    grid-template-columns: 1fr
+    gap: 10px
+
+  .forecast-day
+    padding: 10px
+
+    .day-name
+      height: auto
+
+    .day-desc
+      height: auto
+
+    .day-temps
+      flex-wrap: wrap
+
+      // override your desktop nowrap which can cause horizontal overflow
+      white-space: normal
+
 
