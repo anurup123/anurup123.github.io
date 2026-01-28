@@ -1,10 +1,10 @@
-# Brand logos and their associated websites
-# Brands will be displayed in the order they appear in this file
-
 brands:
 
   - filename: NYU-Logo.png
     url: https://www.nyu.edu
+
+  - filename: courant.jpg
+    url: https://cims.nyu.edu/dynamic/
 
   - filename: langone.png
     url: https://nyulangone.org
