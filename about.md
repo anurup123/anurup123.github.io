@@ -72,19 +72,14 @@ Jadavpur University, Kolkata, India
 
 ## Research Experience {#research-experience}
 
-**Research Assistant**  
-Courant Institute of Mathematical Sciences, New York University, New York, USA  
-**Sep 2024 – Present**  
-- Proposed **CuMoLoS-MAE**, a curriculum-guided Monte Carlo stochastic ensemble masked autoencoder for reconstructing remote-sensing atmospheric fields under low SNR, range folding, and discontinuities.  
-- Trained a ViT-based decoder with a mask-ratio curriculum to reconstruct from progressively sparser context, improving recovery of fine-scale structures such as updraft and downdraft cores, shear lines, and small vortices.  
-- Project Supervisor: [Prof. Sara Shamekh](https://sshamekh.com/) (NYU M²LInES)
-
 **Research Assistant (Thesis)**  
-NYU Center for Atmosphere Ocean Science, New York, USA  
+Center for Atmosphere Ocean Science, New York University (Courant Institute), New York, USA  
 **Sep 2024 – Present**  
-- Developed a probabilistic **diffusion-based inpainting** technique to reconstruct masked and noisy atmospheric mixing ratio data from remote-sensing observations.  
-- Combined a diffusion probabilistic model (DDPM) with the RePaint inpainting framework and a U-Net backbone to achieve robust data reconstruction.  
-- Thesis Advisor: [Prof. Sara Shamekh](https://sshamekh.com/) (Lab: STORM, Scientific Tools for Observing, Reasoning and Modeling)
+- Proposed **CuMoLoS-MAE**, a curriculum-guided Monte Carlo stochastic ensemble masked autoencoder for reconstructing remote-sensing atmospheric fields under low signal-to-noise ratio, range folding, and discontinuities.  
+- Trained a ViT-based decoder with a progressive mask-ratio curriculum to reconstruct atmospheric fields from increasingly sparse spatial context, improving recovery of fine-scale structures such as updraft and downdraft cores, shear lines, and small-scale vortices.  
+- Developed a probabilistic diffusion-based inpainting framework to reconstruct masked and noisy atmospheric mixing ratio observations from remote-sensing data.  
+- Combined diffusion probabilistic models with the RePaint inpainting strategy and a U-Net backbone to achieve robust and uncertainty-aware data reconstruction.  
+- Supervisor and Thesis Advisor: [Prof. Sara Shamekh](https://sshamekh.com/) (NYU M²LInES, STORM Lab)  
 
 **Graduate Researcher**  
 NYU Center for Data Science, New York, USA  
@@ -260,5 +255,6 @@ Working fluency
 </div> <!-- .about-layout -->
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/about.js"></script>
+
 
 
