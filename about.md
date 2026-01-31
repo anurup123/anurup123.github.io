@@ -127,18 +127,18 @@ Jadavpur University, Kolkata, India
 
 ## Teaching Experience {#teaching-experience}
 
-**Tutor**  
-CSCI-UA 480-075 Deep Learning, NYU Courant Institute of Mathematical Sciences, USA  
-**Sep 2025 – Present**  
-- Delivering weekly tutorials and office hours covering backpropagation, optimisation, and CNNs.  
-- Guiding students in implementing models and training pipelines in PyTorch, with emphasis on reproducibility and clear evaluation.  
-- Instructor: [Prof. Alfredo Canziani](https://atcold.github.io/)
+**Graduate Course Assistant**  
+NYU Courant Institute of Mathematical Sciences, New York University, New York, USA  
+**Jan 2026 – Present**  
+- *MATH-GA 3006: Data-Driven Climate Science* (Instructor: [Prof. Sara Shamekh](https://sshamekh.com/))  
+- *CSCI-GA 2572-001: Deep Learning* (Instructors: [Prof. Yann LeCun](http://yann.lecun.com/) and [Prof. Alfredo Canziani](https://atcold.github.io/))  
 
-**Graduate Researcher**  
-New York University, USA  
-**Jan 2026 – Present**   
-- **MATH-GA 3006: Data-Driven Climate Science** (Instructor: [Prof. Sara Shamekh](https://sshamekh.com/))  
-- **CSCI-GA 2572-001: Deep Learning** (Instructors: [Prof. Yann LeCun](http://yann.lecun.com/) and [Prof. Alfredo Canziani](https://atcold.github.io/))
+**Undergraduate Tutor**  
+NYU Courant Institute of Mathematical Sciences, New York University, New York, USA  
+**Sep 2025 – Present**  
+- *CSCI-UA 480-075: Deep Learning* (Instructor: [Prof. Alfredo Canziani](https://atcold.github.io/))  
+
+
 
 </div>
 
@@ -260,3 +260,4 @@ Working fluency
 </div> <!-- .about-layout -->
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/about.js"></script>
+
