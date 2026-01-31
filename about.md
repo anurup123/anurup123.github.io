@@ -72,53 +72,53 @@ Jadavpur University, Kolkata, India
 
 ## Research Experience {#research-experience}
 
-**Research Assistant (CuMoLoS-MAE Project)**  
-New York University, USA  
+**Research Assistant**  
+Courant Institute of Mathematical Sciences, New York University, New York, USA  
 **Sep 2024 – Present**  
 - Proposed **CuMoLoS-MAE**, a curriculum-guided Monte Carlo stochastic ensemble masked autoencoder for reconstructing remote-sensing atmospheric fields under low SNR, range folding, and discontinuities.  
 - Trained a ViT-based decoder with a mask-ratio curriculum to reconstruct from progressively sparser context, improving recovery of fine-scale structures such as updraft and downdraft cores, shear lines, and small vortices.  
-- Supervisor: [Prof. Sara Shamekh](https://sshamekh.com/) (NYU M²LInES)
+- Project Supervisor: [Prof. Sara Shamekh](https://sshamekh.com/) (NYU M²LInES)
 
 **Research Assistant (Thesis)**  
-New York University, USA  
+NYU Center for Atmosphere Ocean Science, New York, USA  
 **Sep 2024 – Present**  
-- Developing a probabilistic **diffusion-based inpainting** technique to reconstruct masked and noisy atmospheric mixing ratio data from remote-sensing observations.  
-- Combining a DDPM with a RePaint-style inpainting framework and a U-Net backbone for robust reconstruction under structured missingness.  
-- Advisor: [Prof. Sara Shamekh](https://sshamekh.com/)
+- Developed a probabilistic **diffusion-based inpainting** technique to reconstruct masked and noisy atmospheric mixing ratio data from remote-sensing observations.  
+- Combined a diffusion probabilistic model (DDPM) with the RePaint inpainting framework and a U-Net backbone to achieve robust data reconstruction.  
+- Thesis Advisor: [Prof. Sara Shamekh](https://sshamekh.com/) (Lab: STORM, Scientific Tools for Observing, Reasoning and Modeling)
 
 **Graduate Researcher**  
-New York University, USA  
+NYU Center for Data Science, New York, USA  
 **Sep 2024 – Present**  
-- Conducting research in **multimodal learning**, focusing on vision language systems for retrieval, captioning, and question answering.  
-- Supervisor: [Prof. Mengye Ren](https://agenticlearning.ai/people/mengye-ren/) (Lab: [Agentic AI / CILVR](https://agenticlearning.ai))
+- Conducting research in **multimodal learning** with an emphasis on building and evaluating vision language systems for retrieval, captioning, and question answering.  
+- Project Supervisor: [Prof. Mengye Ren](https://agenticlearning.ai/people/mengye-ren/) (Lab: [Agentic AI / CILVR](https://agenticlearning.ai))
 
 **Research Intern**  
-NYU Grossman School of Medicine, New York, USA  
-**Jul 2025 – Present**  
-- Developed a masked autoencoder on **ultra-wideband (UWB) S-parameters** as an encoder for UWB-to-MRI reconstruction, then froze it and used its latent representations for conditioning.  
-- Used these latents as conditioning signals for a diffusion model, enabling high-fidelity MRI brain reconstructions with strong anatomical consistency.  
-- Supervisor: [Prof. Cem Deniz](https://med.nyu.edu/faculty/cem-m-deniz)
+New York University (Grossman School of Medicine), New York, USA  
+**Sep 2024 – Aug 2025**  
+- Developed a masked autoencoder on **ultra-wideband (UWB) S-parameters** as the encoder for UWB-to-MRI reconstruction, then froze it and used its latent representations for conditioning.  
+- Used the latent variables as conditioning signals for a diffusion model, enabling high-fidelity MRI brain reconstructions with strong anatomical consistency.  
+- Project Supervisor: [Prof. Cem Deniz](https://med.nyu.edu/faculty/cem-m-deniz)
 
 **MITACS Globalink Research Intern**  
 Thompson Rivers University, Vancouver, Canada  
 **Jun 2023 – Aug 2023**  
 - Proposed an adaptive beta hill-climbing aided optimisation algorithm for feature selection on UCI and microarray datasets.  
-- Integrated Grey Wolf Optimisation for feature selection, balancing exploration and exploitation to improve subset quality.  
-- Supervisor: Prof. Mohamed Tawhid
+- Integrated Grey Wolf Optimisation (GWO) for feature selection, balancing exploration and exploitation to improve subset quality.  
+- Project Supervisor: Prof. Mohamed Tawhid
 
 **Research Assistant**  
 Torrens University Australia, Adelaide, Australia  
 **Jun 2022 – Jun 2023**  
-- Developed a late acceptance hill-climbing aided chaotic harmony search method for feature selection on microarray and UCI benchmark datasets.  
-- Proposed a chaotic-map-based initialisation strategy for metaheuristic optimisation algorithms to enhance exploration and feature-space coverage.  
-- Supervisor: [Prof. Seyedali Mirjalili](https://scholar.google.com/citations?user=TJHmrREAAAAJ&hl=en)
+- Developed a late acceptance hill-climbing aided chaotic harmony search method for feature selection on Microarray and UCI benchmark datasets.  
+- Implemented a novel chaotic-map-based initialisation strategy for metaheuristic optimisation algorithms, enhancing exploration capability and ensuring more comprehensive coverage of the feature space.  
+- Project Supervisor: [Prof. Seyedali Mirjalili](https://scholar.google.com/citations?user=TJHmrREAAAAJ&hl=en)
 
 **Undergraduate Research Assistant**  
 Jadavpur University, Kolkata, India  
 **Jun 2022 – Aug 2024**  
 - Developed a colon-disorder classifier using an altruistic genetic-algorithm-based feature selection method on Wireless Capsule Endoscopy images.  
 - Integrated DL feature extractors and applied a genetic algorithm to select an optimal subset for classification with improved robustness.  
-- Supervisor: [Prof. Ram Sarkar](https://scholar.google.com/citations?hl=en&user=bDj0BUEAAAAJ)
+- Project Supervisor: [Prof. Ram Sarkar](https://scholar.google.com/citations?hl=en&user=bDj0BUEAAAAJ)
 
 </div>
 
@@ -134,8 +134,8 @@ CSCI-UA 480-075 Deep Learning, NYU Courant Institute of Mathematical Sciences, U
 - Guiding students in implementing models and training pipelines in PyTorch, with emphasis on reproducibility and clear evaluation.  
 - Instructor: [Prof. Alfredo Canziani](https://atcold.github.io/)
 
-**Graduate Course Assistant**  
-NYU Courant Institute of Mathematical Sciences, New York, USA  
+**Graduate Researcher**  
+New York University, USA  
 **Jan 2026 – Present**   
 - **MATH-GA 3006: Data-Driven Climate Science** (Instructor: [Prof. Sara Shamekh](https://sshamekh.com/))  
 - **CSCI-GA 2572-001: Deep Learning** (Instructors: [Prof. Yann LeCun](http://yann.lecun.com/) and [Prof. Alfredo Canziani](https://atcold.github.io/))
