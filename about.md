@@ -43,7 +43,7 @@ Growing up in **Kolkata**, a region frequently affected by cyclones during the o
 
 My first exposure to large-scale, data-intensive modelling came through optimisation and feature selection during the **MITACS Globalink** internship, where I developed metaheuristic approaches for identifying informative signals in high-dimensional datasets. This work clarified a recurring limitation: performance saturates when representations are weak or misaligned with domain structure. Since then, my research focus has shifted toward physically grounded representations and generative priors for scientific data.
 
-At NYU, I joined **M²LInES** and began working with **Prof. Sara Shamekh** on learning-based reconstructions of convective processes at the **ARM Southern Great Plains** site. I proposed **CuMoLoS-MAE**, a curriculum-guided stochastic ensemble masked autoencoder for reconstructing remote-sensing atmospheric fields under low SNR, range folding, and discontinuities. In parallel, my thesis work explores diffusion-based inpainting for reconstructing masked and noisy atmospheric mixing ratio observations. I also conduct multimodal learning research with **Prof. Mengye Ren** (Agentic AI / CILVR Lab), and I have worked at **NYU Grossman** with **Prof. Cem Deniz** on a two-stage reconstruction pipeline for UWB-to-MRI, using a masked autoencoder encoder followed by diffusion-based generation.
+At NYU, I joined **M²LInES** and began working with **Prof. Sara Shamekh** on learning-based reconstructions of convective processes at the **ARM Southern Great Plains** site. I proposed **CuMoLoS-MAE**, a curriculum-guided stochastic ensemble masked autoencoder for reconstructing remote-sensing atmospheric fields under low SNR, range folding, and discontinuities. In parallel, my thesis work explores diffusion-based inpainting for reconstructing masked and noisy atmospheric mixing ratio observations. I have previously worked on multimodal learning with **Prof. Mengye Ren** (Agentic AI / CILVR Lab), and I have also worked at **NYU Grossman** with **Prof. Cem Deniz** on a two-stage reconstruction pipeline for UWB-to-MRI, using a masked autoencoder encoder followed by diffusion-based generation.
 
 </div>
 
@@ -260,4 +260,5 @@ Working fluency
 </div> <!-- .about-layout -->
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/about.js"></script>
+
 
