@@ -77,7 +77,13 @@ Center for Atmosphere Ocean Science, New York University (Courant Institute), Ne
 **Sep 2024 – Present**  
 - Proposed **CuMoLoS-MAE**, a curriculum-guided Monte Carlo stochastic ensemble masked autoencoder for reconstructing remote-sensing atmospheric fields under low signal-to-noise ratio, range folding, and discontinuities.  
 - Trained a ViT-based decoder with a progressive mask-ratio curriculum to reconstruct atmospheric fields from increasingly sparse spatial context, improving recovery of fine-scale structures such as updraft and downdraft cores, shear lines, and small-scale vortices.  
-- Supervisor and Thesis Advisor: [Prof. Sara Shamekh](https://sshamekh.com/) (NYU M²LInES, STORM Lab)  
+- Supervisor and Thesis Advisor: [Prof. Sara Shamekh](https://sshamekh.com/) (NYU M²LInES, STORM Lab)
+
+**Graduate Researcher**  
+NYU Center for Data Science, New York, USA  
+**Sep 2024 – Present**  
+- Conducting research in **multimodal learning** with an emphasis on building and evaluating vision language systems for retrieval, captioning, and question answering.  
+- Project Supervisor: [Prof. Mengye Ren](https://agenticlearning.ai/people/mengye-ren/) (Lab: [Agentic AI / CILVR](https://agenticlearning.ai))
 
 
 
@@ -249,6 +255,7 @@ Working fluency
 </div> <!-- .about-layout -->
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/about.js"></script>
+
 
 
 
